@@ -23,9 +23,9 @@
     .sticky-header .main-bar .logo-header {
         display: flex;
         justify-content: flex-start;
-        position: static !important;
+        position: relative !important;
         left: auto !important;
-        z-index: 100 !important;
+        z-index: 200 !important;
         transform: none !important;
         -webkit-transform: none !important;
         -moz-transform: none !important;
