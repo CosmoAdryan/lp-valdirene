@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import logoValdirene from './../../images/logos/logo_valdirene.png';
 import './HeaderValdirene.css';
 
