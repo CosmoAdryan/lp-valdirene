@@ -25,6 +25,7 @@
         justify-content: flex-start;
         position: static !important;
         left: auto !important;
+        z-index: 100 !important;
         transform: none !important;
         -webkit-transform: none !important;
         -moz-transform: none !important;
