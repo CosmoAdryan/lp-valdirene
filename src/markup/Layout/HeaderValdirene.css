@@ -14,14 +14,47 @@
 }
 
 @media (max-width: 991px) {
+    /* Esconde logo duplicada dentro do nav */
     .header-nav .logo-header {
         display: none;
+    }
+
+    /* Logo menor e à esquerda no header */
+    .sticky-header .main-bar .logo-header {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .sticky-header .main-bar .logo-header img {
+        max-height: 55px !important;
+        width: auto !important;
+    }
+    .sticky-header .main-bar {
+        min-height: 70px;
+    }
+
+    /* Menu aberto: itens compactos e agrupados */
+    .header-nav.myNavbar.show {
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        padding: 16px 20px !important;
+        gap: 0 !important;
+    }
+    .header-nav.myNavbar .nav1,
+    .header-nav.myNavbar .nav2 {
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    .header-nav.myNavbar .nav1 li,
+    .header-nav.myNavbar .nav2 li {
+        padding: 6px 0 !important;
+        border-bottom: 1px solid rgba(0,0,0,0.06);
     }
 }
 
 @media (max-width: 767px) {
     .main-slider .slide {
-        min-height: 100vh !important;
+        min-height: 80vh !important;
         height: auto !important;
         
     }
