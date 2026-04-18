@@ -15,8 +15,11 @@
 
 @media (max-width: 991px) {
     /* Esconde logo duplicada dentro do nav */
-    .header-nav .logo-header {
-        display: none;
+    .header-nav .logo-header,
+    .header-nav.show .logo-header,
+    .myNavbar .logo-header,
+    .myNavbar.show .logo-header {
+        display: none !important;
     }
 
     /* Logo menor e à esquerda no header */
