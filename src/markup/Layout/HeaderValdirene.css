@@ -25,7 +25,7 @@
         justify-content: flex-start;
     }
     .sticky-header .main-bar .logo-header img {
-        max-height: 55px !important;
+        /* max-height: 55px !important; */
         width: auto !important;
     }
     .sticky-header .main-bar {

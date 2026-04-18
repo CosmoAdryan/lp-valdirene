@@ -22,7 +22,7 @@ class ValdireneBolos extends Component{
 			<>
 				<HeaderValdirene />
 
-				<div className="page-content bg-white" style={{paddingTop: '90px'}}>
+				<div className="page-content bg-white" style={{paddingTop: '70px'}}>
 					<div className="content-block">
 
 						{/* SEÇÃO 1 — Hero Slider */}
