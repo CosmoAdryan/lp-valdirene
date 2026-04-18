@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import Bloggrid from './../Pages/Bloggrid';
 import Header from './../Layout/Header';
 import Footer from './../Layout/Footer';
-import SimpleReactLightbox from 'simple-react-lightbox';
-import {SRLWrapper} from 'simple-react-lightbox';
 
 var img = require('./../../images/banner/bnr1.jpg');
 
@@ -102,8 +100,7 @@ class Bloggridrightsidebar extends  Component{
 									</div>
 									<div className="widget widget_gallery gallery-grid-4">
 										<h5 className="widget-title style-1">Our Gallery</h5>
-										<SimpleReactLightbox>
-											<SRLWrapper >
+										<>
 												<ul id="lightgallery" className="lightgallery">
 													<li>
 														<div className="dlab-post-thum dlab-img-effect">
@@ -162,8 +159,7 @@ class Bloggridrightsidebar extends  Component{
 														</div>
 													</li>
 												</ul>
-											</SRLWrapper>
-										</SimpleReactLightbox>
+										</>
 									</div>
 									<div className="widget widget_archive">
 										<h5 className="widget-title style-1">Categories List</h5>

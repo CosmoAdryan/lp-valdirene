@@ -19,8 +19,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.4",
     "react-slick": "^0.25.2",
-    "reactstrap": "^8.7.1",
-    "simple-react-lightbox": "^3.5.4"
+    "reactstrap": "^8.7.1"
   },
   "scripts": {
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",

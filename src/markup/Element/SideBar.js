@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import SimpleReactLightbox from 'simple-react-lightbox';
-import {SRLWrapper} from 'simple-react-lightbox';
 
 class SideBar extends Component{
 	render(){
@@ -73,8 +71,7 @@ class SideBar extends Component{
 					</div>
 					<div className="widget widget_gallery gallery-grid-4">
 						<h5 className="widget-title style-1">Our Gallery</h5>
-						<SimpleReactLightbox>
-							<SRLWrapper >
+						<>
 								<ul id="lightgallery" className="lightgallery">
 									<li>
 										<div className="dlab-post-thum dlab-img-effect">
@@ -133,8 +130,7 @@ class SideBar extends Component{
 										</div>
 									</li>
 								</ul>
-							</SRLWrapper>
-						</SimpleReactLightbox>
+						</>
 					</div>
 					<div className="widget widget_archive">
 						<h5 className="widget-title style-1">Categories List</h5>
