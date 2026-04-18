@@ -35,7 +35,7 @@
         -o-transform: none !important;
     }
     .sticky-header .main-bar .logo-header img {
-        /* max-height: 55px !important; */
+        max-height: 60px !important;
         width: auto !important;
     }
     .sticky-header .main-bar {
@@ -47,7 +47,7 @@
         flex-direction: column !important;
         justify-content: flex-start !important;
         align-items: flex-start !important;
-        padding: 16px 20px !important;
+        padding: 80px 20px 16px !important;
         gap: 0 !important;
     }
     .header-nav.myNavbar .nav1,
