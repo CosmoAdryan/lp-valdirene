@@ -20,6 +20,9 @@
 }
 
 @media (max-width: 767px) {
+    .main-slider{
+        width: 90vh !important;
+    }
     .main-slider .sub-title {
         font-size: 14px !important;
     }
