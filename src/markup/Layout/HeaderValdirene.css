@@ -23,6 +23,12 @@
     .sticky-header .main-bar .logo-header {
         display: flex;
         justify-content: flex-start;
+        position: static !important;
+        left: auto !important;
+        transform: none !important;
+        -webkit-transform: none !important;
+        -moz-transform: none !important;
+        -o-transform: none !important;
     }
     .sticky-header .main-bar .logo-header img {
         /* max-height: 55px !important; */
