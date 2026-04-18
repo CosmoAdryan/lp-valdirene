@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 import { Link } from 'react-router-dom';
-import GoogleMaps from "simple-react-google-maps";
 import Header from './../Layout/Header';
 import Footer from './../Layout/Footer';
 
@@ -117,13 +116,7 @@ class Contact extends Component{
 									</div>
 								</div>
 								<div className="col-xl-4 col-lg-12 d-flex">
-									<GoogleMaps
-										apiKey={"AIzaSyBbHk3eFodSk_DSGzv8dd_dIJpZvVDyg4s "}
-										style={{ height: "500px", width: "100%" }}
-										zoom={6}
-										center={{ lat: 37.4224764, lng: -122.0842499 }}
-										markers={{ lat: 37.4224764, lng: -122.0842499 }} //optional
-									/>
+									<div style={{ height: "500px", width: "100%", background: "#eee" }}></div>
 								</div>
 							</div>
 						</div>
