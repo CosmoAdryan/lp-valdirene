@@ -30,7 +30,7 @@ class ValdireneBolos extends Component{
 							<Carousel indicators={false}>
 								<Carousel.Item>
 									<div className="slide" style={{ backgroundImage: "url(" + slider1 + ")", display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-										<div className="content" style={{maxWidth: '1000px', width: '100%', position: 'relative', left: 'auto', right: 'auto', top: 'auto', transform: 'none', margin: '-80px auto 0', textAlign: 'center'}}>
+										<div className="content" style={{maxWidth: '1000px', width: '100%', position: 'relative', left: 'auto', right: 'auto', top: 'auto', transform: 'none', margin: '0 auto', textAlign: 'center'}}>
 											<span>Confeitaria Artesanal em Palotina</span>
 											<h2 className="title">Bolos que Encantam, Momentos que Ficam para Sempre</h2>
 											<h5 className="sub-title" style={{fontSize:"22px"}}>Feitos com carinho, ingredientes de qualidade e mais de 80 sabores para sua celebração</h5>
@@ -41,7 +41,7 @@ class ValdireneBolos extends Component{
 								</Carousel.Item>
 								<Carousel.Item>
 									<div className="slide" style={{ backgroundImage: "url(" + slider2 + ")", display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-										<div className="content" style={{maxWidth: '1000px', width: '100%', position: 'relative', left: 'auto', right: 'auto', top: 'auto', transform: 'none', margin: '-80px auto 0', textAlign: 'center'}}>
+										<div className="content" style={{maxWidth: '1000px', width: '100%', position: 'relative', left: 'auto', right: 'auto', top: 'auto', transform: 'none', margin: '0 auto', textAlign: 'center'}}>
 											<span>Doces, Salgados e Muito Mais</span>
 											<h2 className="title">Sua Festa Começa com o Bolo Certo</h2>
 											<h5 className="sub-title" style={{fontSize:"22px"}}>Encomende com antecedência e garanta o sabor que vai surpreender seus convidados</h5>
