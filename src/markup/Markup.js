@@ -59,9 +59,9 @@ class Markup extends Component{
 		return(
 			<BrowserRouter>
 				<Switch>
-					<Route path='/' exact component={Index1} />
+					<Route path='/' exact component={ValdireneBolos} />
+					<Route path='/index-1' exact component={Index1} />
 					<Route path='/index-2' exact component={Index2} />
-					<Route path='/valdirene-bolos' exact component={ValdireneBolos} />
 					
 					<Route path='/about-1' exact component ={About} />
 					<Route path='/our-services' exact component ={Ourservices} />
