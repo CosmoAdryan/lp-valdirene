@@ -140,15 +140,13 @@ class HeaderValdirene extends Component {
                                     </li>
                                     <li>
                                         <a
-                                            href="#blog"
-                                            onClick={(e) => {
-                                                e.preventDefault();
-                                                this.scrollTo('blog');
-                                            }}>
-                                            Blog
+                                            href="https://wa.me/5544999304790?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido!"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            style={{backgroundColor:'#25D366', color:'#fff', padding:'6px 14px', borderRadius:'4px', fontWeight:'600'}}>
+                                            <i className="fa fa-whatsapp" style={{marginRight:'6px'}}></i>Pedir Agora
                                         </a>
                                     </li>
-                                    
                                 </ul>
                             </div>
                         </div>
